@@ -1,0 +1,260 @@
+:root {
+    --primary-font: 'roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --primary-text-color: #2E2F42;
+    --secondary-text-color: #434455;
+    --third-text-color: #4D5AE5;
+    --first-light-text-color: #FFFFFF;
+    --second-light-text-color: #F4F4FD;
+    --border-color: #E7E9FC;
+
+
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.logo-text {
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+
+}
+
+body {
+    font-family: var(--primary-font);
+    color: #2E2F42;
+}
+
+/*============== Header =================*/
+
+.logo-color {
+    color: var(--third-text-color);
+}
+
+.logo {
+    color: var(--primary-text-color);
+
+}
+
+.header-item {
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+
+}
+
+.header-address-link {
+
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+}
+
+.header-item:hover,
+.header-item:focus {
+    color: #404BBF;
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+    color: #404BBF;
+}
+
+/*/============== Header =================/*/
+
+/*============== Hero =================*/
+.hero-page {
+    background: var(--primary-text-color);
+}
+
+.hero-title {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--first-light-text-color);
+}
+
+
+.hero-btn {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white-text-color);
+    background: var(--third-text-color);
+    cursor: pointer;
+
+}
+
+/*/============== Hero =================/*/
+
+/*============== Section 1 =================*/
+.subtitle-criterion {
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.text-criterion {
+    font-family: var(--primary-font);
+
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+}
+
+/*============== Section 1 =================*/
+
+/*============== Section 2 =================*/
+
+.title-section-working {
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--primary-text-color);
+}
+
+/*============== Section 2 =================*/
+
+/*============== Section 3 =================*/
+.subtitle-employees {
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--primary-text-color);
+}
+
+.name-employees {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.profession {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+}
+
+
+
+
+/*/============== Section 3 =================/*/
+
+
+/*============== Portfolio =================*/
+
+
+
+.btn-color {
+
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--third-text-color);
+    background: var(--second-light-text-color);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-color:hover,
+.btn-color:focus {
+    background: #404BBF;
+    color: #FFFFFF;
+    ;
+}
+
+/*/============== Portfolio =================/*/
+
+/*============== Menu-app =================*/
+
+
+.title-applications {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.text-applications {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+}
+
+/*============== Menu-app =================*/
+
+
+
+
+
+
+
+
+/*============== Footer =================*/
+.footer-page {
+    background: var(--primary-text-color);
+}
+
+.logo-footer {
+    color: var(--second-light-text-color);
+}
+
+.text-footer {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--second-light-text-color);
+}
+
+/*============== Footer =================*/

@@ -1,9 +1,10 @@
 :root {
-    --primary-font: 'roboto', sans-serif;
+    --primary-font: 'Roboto', sans-serif;
     --secondary-font: 'Raleway', sans-serif;
     --primary-text-color: #2E2F42;
     --secondary-text-color: #434455;
     --third-text-color: #4D5AE5;
+    --ocean-color: #404BBF;
     --first-light-text-color: #FFFFFF;
     --second-light-text-color: #F4F4FD;
     --border-color: #E7E9FC;
@@ -17,6 +18,7 @@
 
 .link {
     text-decoration: none;
+
 }
 
 .logo-text {
@@ -24,27 +26,32 @@
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 
 }
 
 body {
-    font-family: var(--primary-font);
-    color: #2E2F42;
+    font-family: 'Roboto', sans-serif;
+    color: var(--secondary-text-color);
+    background-color: var(--first-light-text-color);
 }
 
 /*============== Header =================*/
 
 .logo-color {
-    color: var(--third-text-color);
+
+    color: var(--primary-text-color);
 }
 
 .logo {
-    color: var(--primary-text-color);
+    color: var(--third-text-color);
 
 }
 
 .header-item {
     font-family: var(--primary-font);
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -66,12 +73,12 @@ body {
 
 .header-item:hover,
 .header-item:focus {
-    color: #404BBF;
+    color: var(--ocean-color);
 }
 
 .header-address-link:hover,
 .header-address-link:focus {
-    color: #404BBF;
+    color: var(--ocean-color);
 }
 
 /*/============== Header =================/*/
@@ -87,23 +94,32 @@ body {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    text-align: center;
     letter-spacing: 0.02em;
     color: var(--first-light-text-color);
 }
 
 
 .hero-btn {
-    font-family: inherit;
+    font-family: "Roboto ,sans-serif";
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--white-text-color);
+    color: var(--first-light-text-color);
     background: var(--third-text-color);
     cursor: pointer;
-
 }
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--ocean-color);
+}
+
+
+
+
 
 /*/============== Hero =================/*/
 
@@ -137,18 +153,29 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
     color: var(--primary-text-color);
 }
 
 /*============== Section 2 =================*/
 
 /*============== Section 3 =================*/
+
+.employees {
+    background: var(--second-light-text-color);
+}
+
+.photos-employees-list {
+    background: var(--first-light-text-color);
+}
+
 .subtitle-employees {
     font-family: var(--primary-font);
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
     text-transform: capitalize;
     color: var(--primary-text-color);
 }
@@ -184,7 +211,7 @@ body {
 
 .btn-color {
 
-    font-family: inherit;
+    font-family: var(--primary-font);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -202,15 +229,25 @@ body {
 
 .btn-color:hover,
 .btn-color:focus {
-    background: #404BBF;
-    color: #FFFFFF;
+    background: var(--ocean-color);
+    color: var(--first-light-text-color);
     ;
 }
 
-/*/============== Portfolio =================/*/
+.foto-applications-list {
+    background: #E5E5E5;
 
-/*============== Menu-app =================*/
+}
 
+.foto-applications-item {
+    background: var(--first-light-text-color);
+}
+
+.foto-applications-link:hover,
+.foto-applications-link:hover {
+    border: 1px solid #404BBF;
+
+}
 
 .title-applications {
     font-family: var(--primary-font);
@@ -231,11 +268,7 @@ body {
     color: var(--secondary-text-color);
 }
 
-/*============== Menu-app =================*/
-
-
-
-
+/*/============== Portfolio =================/*/
 
 
 

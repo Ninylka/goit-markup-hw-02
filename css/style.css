@@ -245,7 +245,7 @@ body {
 
 .foto-applications-link:hover,
 .foto-applications-link:hover {
-    border: 1px solid #404BBF;
+    border: 1px solid var(--ocean-color);
 
 }
 

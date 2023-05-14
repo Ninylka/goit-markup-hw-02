@@ -80,6 +80,10 @@ body {
     color: var(--secondary-text-color);
 }
 
+.header-address {
+    font-style: normal;
+}
+
 .header-item:hover,
 .header-item:focus {
     color: var(--ocean-color);
@@ -208,7 +212,9 @@ body {
     color: var(--secondary-text-color);
 }
 
-
+.photo-employees-item {
+    background-color: var(--first-light-text-color);
+}
 
 
 /*/============== Section 3 =================/*/

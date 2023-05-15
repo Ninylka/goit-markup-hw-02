@@ -22,7 +22,6 @@
 }
 
 .logo-text {
-    font-family: var(--secondary-font);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -50,7 +49,7 @@ body {
 }
 
 .header-item {
-    font-family: var(--primary-font);
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -59,8 +58,7 @@ body {
 }
 
 .header-address-item {
-    font-family: var(--primary-font);
-    font-style: normal;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -71,8 +69,6 @@ body {
 
 .header-address-link {
 
-    font-family: var(--primary-font);
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -102,8 +98,6 @@ body {
 }
 
 .hero-title {
-    font-family: var(--primary-font);
-    font-style: normal;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -138,7 +132,7 @@ body {
 
 /*============== Section 1 =================*/
 .subtitle-criterion {
-    font-family: var(--primary-font);
+
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -147,8 +141,6 @@ body {
 }
 
 .text-criterion {
-    font-family: var(--primary-font);
-
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -160,7 +152,6 @@ body {
 /*============== Section 2 =================*/
 
 .title-section-working {
-    font-family: var(--primary-font);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -178,12 +169,9 @@ body {
     background: var(--second-light-text-color);
 }
 
-.photos-employees-list {
-    background-color: #FFFFFF;
-}
+
 
 .subtitle-employees {
-    font-family: var(--primary-font);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -194,8 +182,6 @@ body {
 }
 
 .name-employees {
-    font-family: var(--primary-font);
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -204,7 +190,6 @@ body {
 }
 
 .profession {
-    font-family: var(--primary-font);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -212,9 +197,6 @@ body {
     color: var(--secondary-text-color);
 }
 
-.photo-employees-item {
-    background-color: var(--first-light-text-color);
-}
 
 
 /*/============== Section 3 =================/*/
@@ -225,7 +207,6 @@ body {
 
 
 .btn-color {
-
     font-family: var(--primary-font);
     font-style: normal;
     font-weight: 500;
@@ -249,27 +230,14 @@ body {
     ;
 }
 
-.foto-applications-list {
-    background: #E5E5E5;
 
-}
 
 .foto-applications-item {
     background: var(--first-light-text-color);
 }
 
-.foto-applications-link:hover,
-.foto-applications-link:hover {
-    border: 1px solid var(--ocean-color);
-
-}
-
-
-
 
 .title-applications {
-    font-family: var(--primary-font);
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -278,8 +246,6 @@ body {
 }
 
 .text-applications {
-    font-family: var(--primary-font);
-    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -301,7 +267,6 @@ body {
 }
 
 .text-footer {
-    font-family: var(--primary-font);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
